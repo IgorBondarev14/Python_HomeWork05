@@ -10,7 +10,7 @@ variant = int(input("Ваш выбор - "))
 while variant != 1 and variant != 2:
     print("Введите 1 или 2")
     variant = int(input())
-candies = 100
+candies = 2021
 move = bool(choice([True, False]))
 if variant == 1:
     player1 = input('Введите имя первого игрока: ')
