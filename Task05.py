@@ -20,16 +20,18 @@ while move_count > 0:
             if a % 4 == 0:
                 if a == 4:
                     Four = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Four == Seven or Four == Five == Six:
                         print("Игра окончена")
                         exit()
                     move = not move
                 else:
                     Eight = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Seven == Eight == Nine or Two == Five == Eight:
                         print("Игра окончена")
                         exit()  
@@ -37,16 +39,18 @@ while move_count > 0:
             else:
                 if a == 2:
                     Two = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Two == Three or Two == Five == Eight:
                         print("Игра окончена")
                         exit()  
                     move = not move
                 else:
                     Six = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Three == Six == Nine or Four == Five == Six:
                         print("Игра окончена")
                         exit()
@@ -55,16 +59,18 @@ while move_count > 0:
             if a % 3 == 0:
                 if a == 3:
                     Three = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Two == Three or Three == Six == Nine or Three == Five == Seven:
                         print("Игра окончена")
                         exit()
                     move = not move
                 else:
                     Nine = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Three == Six == Nine or Seven == Eight == Nine or One == Five == Nine:
                         print("Игра окончена")
                         exit()
@@ -72,24 +78,27 @@ while move_count > 0:
             else:
                 if a == 1:
                     One = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Two == Three or One == Four == Seven or One == Five == Nine:
                         print("Игра окончена")
                         exit()
                     move = not move
                 elif a == 5:
                     Five = 'X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Four == Five == Six or Two == Five == Eight or One == Five == Nine or Three == Five == Seven:
                         print("Игра окончена")
                         exit()
                     move = not move
                 elif a == 7:
                     Seven ='X'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Four == Seven or Seven == Eight == Nine or Three == Five == Seven:
                         print("Игра окончена")
                         exit()
@@ -104,16 +113,18 @@ while move_count > 0:
             if a % 4 == 0:
                 if a == 4:
                     Four = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Four == Seven or Four == Five == Six:
                         print("Игра окончена")
                         exit()
                     move = not move
                 else:
                     Eight = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Seven == Eight == Nine or Two == Five == Eight:
                         print("Игра окончена")
                         exit()  
@@ -121,16 +132,18 @@ while move_count > 0:
             else:
                 if a == 2:
                     Two = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Two == Three or Two == Five == Eight:
                         print("Игра окончена")
                         exit()  
                     move = not move
                 else:
                     Six = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Three == Six == Nine or Four == Five == Six:
                         print("Игра окончена")
                         exit()
@@ -139,16 +152,18 @@ while move_count > 0:
             if a % 3 == 0:
                 if a == 3:
                     Three = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Two == Three or Three == Six == Nine or Three == Five == Seven:
                         print("Игра окончена")
                         exit()
                     move = not move
                 else:
                     Nine = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Three == Six == Nine or Seven == Eight == Nine or One == Five == Nine:
                         print("Игра окончена")
                         exit()
@@ -156,24 +171,27 @@ while move_count > 0:
             else:
                 if a == 1:
                     One = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Two == Three or One == Four == Seven or One == Five == Nine:
                         print("Игра окончена")
                         exit()
                     move = not move
                 elif a == 5:
                     Five = 'O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if Four == Five == Six or Two == Five == Eight or One == Five == Nine or Three == Five == Seven:
                         print("Игра окончена")
                         exit()
                     move = not move
                 elif a == 7:
                     Seven ='O'
-                    print(f" {One} | {Two} | {Three} \n-----------\n {Four} | {Five} | {Six} \n\
------------\n {Seven} | {Eight} | {Nine} \n")
+                    print(f" {One} | {Two} | {Three}         1 | 2 | 3\n-----------       -----------\n \
+{Four} | {Five} | {Six}         4 | 5 | 6\n-----------       -----------\n\
+ {Seven} | {Eight} | {Nine}         7 | 8 | 9\n")
                     if One == Four == Seven or Seven == Eight == Nine or Three == Five == Seven:
                         print("Игра окончена")
                         exit()
