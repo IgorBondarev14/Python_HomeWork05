@@ -5,7 +5,7 @@ from itertools import count
 
 
 data_in = open('in.txt','w')
-data_in.write('abbccc222222dddd/////eeeee')
+data_in.write('abbccc222222dddd/////eeee')
 data_in.close()
 
 data_in = open('in.txt', 'r')
@@ -18,7 +18,7 @@ count = 1
 for i in range(0, len(text) - 1):
     if text[i] == text[i + 1]:
         if i == len(text) - 2:
-            count += 2
+            count += 1
             encoded_text = encoded_text + str(count) + '*' + text[i] + ' '
             break
         count += 1
@@ -35,7 +35,7 @@ data_decoded = open('out.txt', 'r')
 new_text = str(*data_decoded)
 data_decoded.close()
 decoded_text = ''
-for i in range(0, len(new_text) - 1):
-    if type(new_text[i]) == int:
-        decoded_text = decoded_text + new_text[i] * new_text[i + 2]
-print(decoded_text)
+for i in range(1, len(new_text) - 1):
+    if new_text[i] == '*':
+        decoded_text = decoded_text + int(new_text[i - 1]) * str(new_text[i + 1])
+print(f"Так выглядит разархивированный текст: {decoded_text}")
